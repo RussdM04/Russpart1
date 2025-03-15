@@ -1,0 +1,132 @@
+/* Background Color */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Light background color */
+    font-family: Arial, sans-serif;
+}
+
+/* Auth Page Layout */
+.auth-page {
+    display: flex;
+    height: 100vh; /* Full screen height */
+}
+
+/* Left side with pinkish-red background */
+.left-side {
+    width: 50%;
+    background-color: #FF4D6A; /* Pinkish-red background for left side */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Right side with form */
+.right-side {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the form */
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Form Styles */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+
+/* Button Styles */
+.btn {
+    padding: 12px;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Error message styling */
+.error-message {
+    color: #dc3545;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background-color: #f8d7da;
+    border-radius: 6px;
+    border: 1px solid #f5c6cb;
+}
+
+/* Link Styling */
+.auth-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.auth-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-link a:hover {
+    text-decoration: underline;
+}
+
+/**
+ * Map Styles
+ * Styling for the Google Maps iframe
+ */
+#map {
+    height: 400px;
+    width: 100%;
+    border: 0;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+} 
